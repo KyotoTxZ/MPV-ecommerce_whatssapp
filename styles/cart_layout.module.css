@@ -1,0 +1,19 @@
+.cart_layout_cont {
+    height: 6vh;
+    max-width: 120em;
+    
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 1000;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 3vh;
+    position: fixed;
+    background-color: hsla(0, 1%, 70%, 0.487);
+
+}
+.cart_icon {
+    font-size: 25px;
+}
