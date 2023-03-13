@@ -1,0 +1,20 @@
+.container {
+    max-width: 120em;
+   height: 100vh;
+    padding: 0 1em;
+    background: red;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.pedir_wh_buttom {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    
+}

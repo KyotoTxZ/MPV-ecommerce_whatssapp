@@ -38,8 +38,8 @@ export default function Cart() {
   return (
     <div>
       <Layout title={"Cart"}>
-        <h2 className="mt-2 mb-2 text-center">shopping Cart</h2>
-        <div className={styles.container}>
+        
+        {/* <div className={styles.container}>
           {cartItems.length === 0 ? (
             <div>
               cart is empty. <Link href="/">Go shopping</Link>
@@ -55,6 +55,7 @@ export default function Cart() {
                     <th scope="col">Action</th>
                   </tr>
                 </thead>
+
                 <tbody>
                   {cartItems.map((item) => (
                     <tr key={item.slug}>
@@ -99,7 +100,7 @@ export default function Cart() {
               </table>
 
               {/* calculando el precio total de los productos agregados al (cart) */}
-              <div>
+              {/* <div>
                 <h5>
                   CANTIDAD: ({cartItems.reduce((a, c) => a + c.quantity, 0)})
                   Productos
@@ -110,15 +111,21 @@ export default function Cart() {
                   {price}
                 </p>
 
-                <Link
+                
+              </div>
+              
+              
+            </div> */}
+          )} */}
+          {/* <div className={styles.pedir_wh_buttom}>
+              <Link
                   href={`https://wa.me/3015593281?text= ${encodeURIComponent(text)}`}
                 >
-                  PEDIR PEDIDO
+                  <button>PEDIR PEDIDO</button>
+                  
                 </Link>
-              </div>
-            </div>
-          )}
-        </div>
+              </div> */}
+        {/* </div> */}
       </Layout>
     </div>
   );
